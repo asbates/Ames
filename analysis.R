@@ -1,4 +1,3 @@
-setwd('Desktop/Projects/Ames')
 
 library(tidyverse)
 library(caret)
