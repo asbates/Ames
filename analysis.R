@@ -244,3 +244,7 @@ gbm_final_pred <- predict(gbm_final, test_clean)
 gbm_submission <- read_csv('sample_submission.csv')
 gbm_submission$SalePrice <- gbm_final_pred
 write_csv(gbm_submission, 'gbm_submission.csv')
+                
+# the last submission score was 0.12943
+# which is about position 1439 out of 4202 competitors
+# this corresponds to the top 35% of the leaderboard
